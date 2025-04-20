@@ -31,7 +31,7 @@ The system employs a multi-agent approach where different agents handle specific
 2.  **Get the Code:**
     Clone the repository or download the project files into a directory (e.g., `Multi-Agent-RAG`).
     ```bash
-    git clone <your-repo-url> # Or download/extract zip
+    git clone https://github.com/raoofaltaher/Multi-Agent-RAG # Or download/extract zip
     cd Multi-Agent-RAG
     ```
 
