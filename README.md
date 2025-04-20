@@ -1,4 +1,4 @@
-# Multi-Agent RAG System (PydanticAI & Google Gemini)
+# Multi-Agent RAG System
 
 This project implements a Retrieval-Augmented Generation (RAG) system using multiple AI agents orchestrated by the PydanticAI library. It leverages Google's Gemini models for advanced language understanding and generation, Google's embedding API for semantic search capabilities, and Qdrant as a high-performance vector database for storing and retrieving knowledge.
 
