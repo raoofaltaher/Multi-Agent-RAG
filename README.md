@@ -7,7 +7,6 @@ This project implements a Retrieval-Augmented Generation (RAG) system using mult
 The system employs a multi-agent approach where different agents handle specific tasks. A Router Agent first determines the best strategy (vector search vs. web search) to answer a user query. Based on this, either a specialized RAG Agent or a Web Search Agent takes over.
 
 ![Multi-Agent RAG System Architecture](images/multi-agent-rag.png)
-*(**Note:** You need to create an `images` folder in the project root and place the `multi-agent-rag.png` file inside it for this image to display correctly)*
 
 ## Key Features
 
