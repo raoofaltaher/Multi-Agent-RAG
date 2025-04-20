@@ -1,0 +1,11 @@
+# requirements.txt
+# Allow pip to install the latest available version from PyPI (e.g., 0.1.3)
+pydantic-ai==0.1.3
+google-generativeai==0.8.5
+qdrant-client==1.13.3 # Keep qdrant pinned if desired
+python-dotenv==1.1.0 # For .env file support
+requests
+langchain-text-splitters==0.3.8
+tiktoken==0.9.0
+duckduckgo-search
+ipython # Optional: For Markdown display in some terminals
