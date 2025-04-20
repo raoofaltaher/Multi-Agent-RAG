@@ -92,9 +92,10 @@ The system employs a multi-agent approach where different agents handle specific
         # --- OR ---
 
         # Ingest another relevant page
-        python ingest_data.py "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
+        python ingest_data.py "url_of_your_choice"
         ```
     *   Run this script for *each* URL source you want to include in the RAG agent's knowledge base. Data from multiple runs will be added to the same Qdrant collection.
+    *   You can run this command multiple times for all the links "Urls" you need.
     *   If you encounter API key errors here, re-verify your `.env` file and Google API key status/permissions.
 
 2.  **Run the Main Application (Chat Interface):**
